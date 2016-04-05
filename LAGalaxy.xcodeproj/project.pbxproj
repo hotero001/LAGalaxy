@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87E2E881CB345AC00328DB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E2E871CB345AC00328DB5 /* AppDelegate.swift */; };
+		C87E2E8A1CB345AC00328DB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E2E891CB345AC00328DB5 /* ViewController.swift */; };
+		C87E2E8D1CB345AC00328DB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87E2E8B1CB345AC00328DB5 /* Main.storyboard */; };
+		C87E2E901CB345AC00328DB5 /* LAGalaxy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C87E2E8E1CB345AC00328DB5 /* LAGalaxy.xcdatamodeld */; };
+		C87E2E921CB345AC00328DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87E2E911CB345AC00328DB5 /* Assets.xcassets */; };
+		C87E2E951CB345AC00328DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87E2E931CB345AC00328DB5 /* LaunchScreen.storyboard */; };
+		C87E2EA01CB345AC00328DB5 /* LAGalaxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E2E9F1CB345AC00328DB5 /* LAGalaxyTests.swift */; };
+		C87E2EAB1CB345AC00328DB5 /* LAGalaxyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E2EAA1CB345AC00328DB5 /* LAGalaxyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87E2E9C1CB345AC00328DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87E2E7C1CB345AC00328DB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87E2E831CB345AC00328DB5;
+			remoteInfo = LAGalaxy;
+		};
+		C87E2EA71CB345AC00328DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87E2E7C1CB345AC00328DB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87E2E831CB345AC00328DB5;
+			remoteInfo = LAGalaxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C87E2E841CB345AC00328DB5 /* LAGalaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAGalaxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87E2E871CB345AC00328DB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C87E2E891CB345AC00328DB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C87E2E8C1CB345AC00328DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C87E2E8F1CB345AC00328DB5 /* LAGalaxy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LAGalaxy.xcdatamodel; sourceTree = "<group>"; };
+		C87E2E911CB345AC00328DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C87E2E941CB345AC00328DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C87E2E961CB345AC00328DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87E2E9B1CB345AC00328DB5 /* LAGalaxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAGalaxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87E2E9F1CB345AC00328DB5 /* LAGalaxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAGalaxyTests.swift; sourceTree = "<group>"; };
+		C87E2EA11CB345AC00328DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87E2EA61CB345AC00328DB5 /* LAGalaxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAGalaxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87E2EAA1CB345AC00328DB5 /* LAGalaxyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAGalaxyUITests.swift; sourceTree = "<group>"; };
+		C87E2EAC1CB345AC00328DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87E2E811CB345AC00328DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E2E981CB345AC00328DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E2EA31CB345AC00328DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87E2E7B1CB345AC00328DB5 = {
+			isa = PBXGroup;
+			children = (
+				C87E2E861CB345AC00328DB5 /* LAGalaxy */,
+				C87E2E9E1CB345AC00328DB5 /* LAGalaxyTests */,
+				C87E2EA91CB345AC00328DB5 /* LAGalaxyUITests */,
+				C87E2E851CB345AC00328DB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87E2E851CB345AC00328DB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87E2E841CB345AC00328DB5 /* LAGalaxy.app */,
+				C87E2E9B1CB345AC00328DB5 /* LAGalaxyTests.xctest */,
+				C87E2EA61CB345AC00328DB5 /* LAGalaxyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87E2E861CB345AC00328DB5 /* LAGalaxy */ = {
+			isa = PBXGroup;
+			children = (
+				C87E2E871CB345AC00328DB5 /* AppDelegate.swift */,
+				C87E2E891CB345AC00328DB5 /* ViewController.swift */,
+				C87E2E8B1CB345AC00328DB5 /* Main.storyboard */,
+				C87E2E911CB345AC00328DB5 /* Assets.xcassets */,
+				C87E2E931CB345AC00328DB5 /* LaunchScreen.storyboard */,
+				C87E2E961CB345AC00328DB5 /* Info.plist */,
+				C87E2E8E1CB345AC00328DB5 /* LAGalaxy.xcdatamodeld */,
+			);
+			path = LAGalaxy;
+			sourceTree = "<group>";
+		};
+		C87E2E9E1CB345AC00328DB5 /* LAGalaxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C87E2E9F1CB345AC00328DB5 /* LAGalaxyTests.swift */,
+				C87E2EA11CB345AC00328DB5 /* Info.plist */,
+			);
+			path = LAGalaxyTests;
+			sourceTree = "<group>";
+		};
+		C87E2EA91CB345AC00328DB5 /* LAGalaxyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C87E2EAA1CB345AC00328DB5 /* LAGalaxyUITests.swift */,
+				C87E2EAC1CB345AC00328DB5 /* Info.plist */,
+			);
+			path = LAGalaxyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87E2E831CB345AC00328DB5 /* LAGalaxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87E2EAF1CB345AC00328DB5 /* Build configuration list for PBXNativeTarget "LAGalaxy" */;
+			buildPhases = (
+				C87E2E801CB345AC00328DB5 /* Sources */,
+				C87E2E811CB345AC00328DB5 /* Frameworks */,
+				C87E2E821CB345AC00328DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAGalaxy;
+			productName = LAGalaxy;
+			productReference = C87E2E841CB345AC00328DB5 /* LAGalaxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C87E2E9A1CB345AC00328DB5 /* LAGalaxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87E2EB21CB345AC00328DB5 /* Build configuration list for PBXNativeTarget "LAGalaxyTests" */;
+			buildPhases = (
+				C87E2E971CB345AC00328DB5 /* Sources */,
+				C87E2E981CB345AC00328DB5 /* Frameworks */,
+				C87E2E991CB345AC00328DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87E2E9D1CB345AC00328DB5 /* PBXTargetDependency */,
+			);
+			name = LAGalaxyTests;
+			productName = LAGalaxyTests;
+			productReference = C87E2E9B1CB345AC00328DB5 /* LAGalaxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C87E2EA51CB345AC00328DB5 /* LAGalaxyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87E2EB51CB345AC00328DB5 /* Build configuration list for PBXNativeTarget "LAGalaxyUITests" */;
+			buildPhases = (
+				C87E2EA21CB345AC00328DB5 /* Sources */,
+				C87E2EA31CB345AC00328DB5 /* Frameworks */,
+				C87E2EA41CB345AC00328DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87E2EA81CB345AC00328DB5 /* PBXTargetDependency */,
+			);
+			name = LAGalaxyUITests;
+			productName = LAGalaxyUITests;
+			productReference = C87E2EA61CB345AC00328DB5 /* LAGalaxyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87E2E7C1CB345AC00328DB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Larsen & McDermott Enterprises, LLC";
+				TargetAttributes = {
+					C87E2E831CB345AC00328DB5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C87E2E9A1CB345AC00328DB5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C87E2E831CB345AC00328DB5;
+					};
+					C87E2EA51CB345AC00328DB5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C87E2E831CB345AC00328DB5;
+					};
+				};
+			};
+			buildConfigurationList = C87E2E7F1CB345AC00328DB5 /* Build configuration list for PBXProject "LAGalaxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87E2E7B1CB345AC00328DB5;
+			productRefGroup = C87E2E851CB345AC00328DB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87E2E831CB345AC00328DB5 /* LAGalaxy */,
+				C87E2E9A1CB345AC00328DB5 /* LAGalaxyTests */,
+				C87E2EA51CB345AC00328DB5 /* LAGalaxyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87E2E821CB345AC00328DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E2E951CB345AC00328DB5 /* LaunchScreen.storyboard in Resources */,
+				C87E2E921CB345AC00328DB5 /* Assets.xcassets in Resources */,
+				C87E2E8D1CB345AC00328DB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E2E991CB345AC00328DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E2EA41CB345AC00328DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87E2E801CB345AC00328DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E2E8A1CB345AC00328DB5 /* ViewController.swift in Sources */,
+				C87E2E901CB345AC00328DB5 /* LAGalaxy.xcdatamodeld in Sources */,
+				C87E2E881CB345AC00328DB5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E2E971CB345AC00328DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E2EA01CB345AC00328DB5 /* LAGalaxyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E2EA21CB345AC00328DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E2EAB1CB345AC00328DB5 /* LAGalaxyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87E2E9D1CB345AC00328DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87E2E831CB345AC00328DB5 /* LAGalaxy */;
+			targetProxy = C87E2E9C1CB345AC00328DB5 /* PBXContainerItemProxy */;
+		};
+		C87E2EA81CB345AC00328DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87E2E831CB345AC00328DB5 /* LAGalaxy */;
+			targetProxy = C87E2EA71CB345AC00328DB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C87E2E8B1CB345AC00328DB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87E2E8C1CB345AC00328DB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C87E2E931CB345AC00328DB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87E2E941CB345AC00328DB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87E2EAD1CB345AC00328DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C87E2EAE1CB345AC00328DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87E2EB01CB345AC00328DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LAGalaxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsenmcdermott.LAGalaxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C87E2EB11CB345AC00328DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LAGalaxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsenmcdermott.LAGalaxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C87E2EB31CB345AC00328DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LAGalaxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsenmcdermott.LAGalaxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAGalaxy.app/LAGalaxy";
+			};
+			name = Debug;
+		};
+		C87E2EB41CB345AC00328DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LAGalaxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsenmcdermott.LAGalaxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAGalaxy.app/LAGalaxy";
+			};
+			name = Release;
+		};
+		C87E2EB61CB345AC00328DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LAGalaxyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsenmcdermott.LAGalaxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LAGalaxy;
+			};
+			name = Debug;
+		};
+		C87E2EB71CB345AC00328DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LAGalaxyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsenmcdermott.LAGalaxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LAGalaxy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87E2E7F1CB345AC00328DB5 /* Build configuration list for PBXProject "LAGalaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E2EAD1CB345AC00328DB5 /* Debug */,
+				C87E2EAE1CB345AC00328DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87E2EAF1CB345AC00328DB5 /* Build configuration list for PBXNativeTarget "LAGalaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E2EB01CB345AC00328DB5 /* Debug */,
+				C87E2EB11CB345AC00328DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C87E2EB21CB345AC00328DB5 /* Build configuration list for PBXNativeTarget "LAGalaxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E2EB31CB345AC00328DB5 /* Debug */,
+				C87E2EB41CB345AC00328DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C87E2EB51CB345AC00328DB5 /* Build configuration list for PBXNativeTarget "LAGalaxyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E2EB61CB345AC00328DB5 /* Debug */,
+				C87E2EB71CB345AC00328DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C87E2E8E1CB345AC00328DB5 /* LAGalaxy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C87E2E8F1CB345AC00328DB5 /* LAGalaxy.xcdatamodel */,
+			);
+			currentVersion = C87E2E8F1CB345AC00328DB5 /* LAGalaxy.xcdatamodel */;
+			path = LAGalaxy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C87E2E7C1CB345AC00328DB5 /* Project object */;
+}

@@ -33,4 +33,9 @@ class LAGalaxyUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testHomeScreen() {
+        let app = XCUIApplication()
+        let startTitleLabel = app.navigationBars.staticTexts["LA Galaxy"]
+        XCTAssertTrue(startTitleLabel.exists, "Nav bar should read LA Galaxy")
+    }
 }
